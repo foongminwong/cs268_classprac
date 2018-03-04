@@ -1,0 +1,15 @@
+body {
+    background-image:url("clearimage.gif");
+    font-family:Arial
+}
+h1,h2,p {
+    color:rgb(199,25,112)
+}
+.pageBackground {
+    background-color:gainsboro;
+    color:darkslateblue
+}
+#titleSubheading {
+    font-family:comic-sans;
+    background-color:mistyrose
+}
