@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+		<script>
+		
+			/* getRandomColor stole'd from https://stackoverflow.com/questions/1484506/random-color-generator */
+		
+			function getRandomColor() {
+				var letters = '0123456789ABCDEF';
+				var color = '#';
+				for (var i = 0; i < 6; i++) {
+					color += letters[Math.floor(Math.random() * 16)];
+				}
+				return color;
+		}
+			
+			function partyHard() {
+				document.getElementById('foo').style.color = getRandomColor();
+			}
+		
+		</script>
+
+	</head>
+
+<body>
+
+	<h1><p id="foo">PARTY HARD!!!</p></h1>
+	
+	<input type="button" value="PARTY HARD!!!" onclick="partyHard()"/>
+
+</body>
+
+</html>
