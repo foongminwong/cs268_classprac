@@ -1,2 +1,2 @@
-Developing a Maple Story version UWEC CS website
+Developing a MapleStory version UWEC CS website
 
